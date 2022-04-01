@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+
+* {
+    font-family: 'Oswald';
+}
+
+body,h1,h2{
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    min-width: fit-content;
+}
+
+/* 전체적인 모양 잡기 */
+.main_box{
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+ 
+/* title */
+.title_div {
+    text-align: right;
+}
+h1 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+}
+ .title_text{
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+ }
+
+ /* 세부적인 내용 */
+ h2{
+    font-weight: lighter;
+    color: gray;
+    border-bottom: 1px solid gray;
+ }
+.aboutme_text{
+    font-size: 10px;
+    line-height: 16px;
+}
+ .section{
+    overflow: hidden;
+    margin-bottom: -20px;
+ }
+ .section_title{
+    font-weight: bold;
+    float: left;
+ }
+ .section_period{
+    font-weight: bold;
+    float: right;
+ }
+ .section_text{
+    padding-left: 20px;
+ }
+
+ /* 이미지 */
+ .sns_wrap{
+    text-align: right;
+ }
+.sns_img{
+    width: 12px;
+    height: 12px;
+}
+
+ /* footer */
+ footer{
+    text-align: center;
+    background-color: #3F3E3E;
+    color: #CCC8C7 ;
+ }
+
+ /* 
+ px보단 %로 써라
+ 
+ 
+ 
+ */
