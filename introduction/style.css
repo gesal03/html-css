@@ -94,6 +94,7 @@ h1{
 }
 .main_text{
     font-size: 150%;
+    font-style: italic;
 }
 /* image */
 .sns_img{
@@ -127,7 +128,7 @@ h2{
     padding: 3% 3% 3% 10%;
 }
 .myimg{
-    width: 60%;
+    width: 80%;
     height: 100%; 
     box-shadow: 5px 5px 10px 3px #bca89f, -5px -5px 10px 3px #bca89f; 
 }
@@ -184,10 +185,10 @@ h3{
     width: 90%;
     margin: 0%;
 }
-span{
+.click{
     font-size: 50%;
 }
-span:hover{
+.click:hover{
     color: #bca89f;
 }
 /* experience */
