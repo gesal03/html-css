@@ -19,8 +19,8 @@ body{
 }
 /* 큰 틀 */
 .box{
-    width: 90%;
-    height: 100%;
+    width: 90vw;
+    height: 95vh;
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: auto;
@@ -38,19 +38,33 @@ body{
     width: 20%;
     box-sizing: border-box;
     background-color: #a08679;
-    box-shadow: 0px 20px 10px 5px #bca89f;
+    box-shadow: 5px 0px 10px 0px #bca89f;
+}
+.sidebar_on:hover{
+    color: bisque;
 }
 .list{
-    padding-top: 45%;
+    padding-top: 50%;
     font-size: 250%;
     font-weight: bold;
-    line-height: 100%;
+    line-height: 150%;
     text-align: center;
     
+}
+.list:hover{
+    color: bisque; 
 }
 .fontstyle{
     color: bisque; 
     font-size: larger;
+}
+.sidebar_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+}
+.sidebar_img:hover{
+    box-shadow: 5px 5px 10px 3px #bca89f, -5px -5px 10px 3px #bca89f;
 }
 /* content */
 .content{
@@ -60,13 +74,13 @@ body{
 }
 /* main */
 .title{
-    padding: 20% 0% 0% 5%;
+    padding: 25% 0% 0% 5%;
     height: 60%;
     box-sizing: border-box;
 }
 h1{
-    width: 75%;
-    font-size: 600%;
+    width: 90%;
+    font-size: 700%;
     font-style: italic;
     color: #8b6c5c;
     border-bottom: 1px solid #bca89f;
@@ -78,11 +92,16 @@ h1{
     background-color: #8b6c5c; 
     box-shadow: 0px -5px 10px 0px #bca89f;
 }
+.main_text{
+    font-size: 150%;
+}
 /* image */
 .sns_img{
     width: 40px;
     height: 40px;
-    margin-top: 3%;
+    padding: 15%;
+    border-radius: 50%;
+    float: left;
 }
 /* about */
 #about{
@@ -130,9 +149,13 @@ h3{
     width: 70%;
 }
 .profile_list{
-    font-size: 120%;
-    line-height: 200%;
+    font-size: 110%;
+    line-height: 300%;
     text-align: left;
+    width: 100%;
+}
+.mbti:hover{
+    color: #bca89f;
 }
 /* interest */
 .left{
@@ -161,12 +184,20 @@ h3{
     width: 90%;
     margin: 0%;
 }
+span{
+    font-size: 50%;
+}
+span:hover{
+    color: #bca89f;
+}
 /* experience */
 #experience_box{
     width: 50%;
 }
 .smalltitle{
     overflow: hidden;
+    height: 10%;
+    width: 100%
 }
 .exp_title{
     float: left;
@@ -178,4 +209,20 @@ h3{
     font-weight: bold;
     font-size: larger;
     padding-right: 9%;
+}
+.mygit{
+    font-size: 120%;
+    float: right;
+}
+.mygit:hover{
+    color: #bca89f;
+}
+.wrap{
+    display: flex;
+}
+.git_img{
+    padding: 3%;
+    float: left;
+    width: 30px;
+    height: 30px;
 }
