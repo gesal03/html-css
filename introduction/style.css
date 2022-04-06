@@ -51,9 +51,7 @@ body,h1,h2{
     text-align: center;
     box-sizing: border-box;    
 }
-.list:hover{
-    color: bisque; 
-}
+
 .fontstyle{
     color: bisque; 
     font-size: 4.5vmin;
