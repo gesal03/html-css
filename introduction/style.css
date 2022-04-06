@@ -13,13 +13,10 @@ body,h1,h2{
     padding: 0;
 }
 
-body{ 
-    height: 700px;
-}
 /* 큰 틀 */
 .box{
-    width: 90%;
-    height: 100%;
+    width: 90vw;
+    height: 90vh;
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: auto;
@@ -35,6 +32,7 @@ body{
 .sidebar{
     float: left;
     width: 20%;
+    height: 100%;
     box-sizing: border-box;
     background-color: #a08679;
     box-shadow: 5px 0px 10px 0px #bca89f;
@@ -47,7 +45,7 @@ body{
     height: 100%;
     padding-top: 40%;
     padding-bottom: 40%;
-    font-size: 200%;
+    font-size: 4vmin;
     font-weight: bold;
     line-height: 150%;
     text-align: center;
@@ -58,11 +56,11 @@ body{
 }
 .fontstyle{
     color: bisque; 
-    font-size: larger;
+    font-size: 4.5vmin;
 }
 .sidebar_img{
-    width: 150px;
-    height: 150px;
+    width: 18vmin;
+    height: 18vmin;
     border-radius: 20%;
 }
 .sidebar_img:hover{
@@ -81,12 +79,10 @@ body{
     box-sizing: border-box;
 }
 h1{
-    height: 70%;
-    width: 65%;
-    font-size: 70px;
+    font-size: 10vmin;
     font-style: italic;
     color: #8b6c5c;
-    border-bottom: 1px solid #bca89f;
+    box-sizing: border-box;
 }
 .text{
     padding: 5% 0% 0% 5%;
@@ -96,7 +92,7 @@ h1{
     box-shadow: 0px -5px 10px 0px #bca89f;
 }
 .main_text{
-    font-size: 150%;
+    font-size: 3vmin;
     font-style: italic;
 }
 /* image */
@@ -115,7 +111,7 @@ h1{
 h2{
     padding-top: 7%;
     text-align: center;
-    font-size: 500%;
+    font-size: 10vmin;
     font-weight: bold;
     color: #8b6c5c;
 }
@@ -153,7 +149,7 @@ h3{
     width: 70%;
 }
 .profile_list{
-    font-size: 110%;
+    font-size: 2vmin;
     line-height: 300%;
     text-align: left;
     width: 100%;
@@ -189,7 +185,7 @@ h3{
     margin: 0%;
 }
 .click{
-    font-size: 50%;
+    font-size: 2vmin;
 }
 .click:hover{
     color: #bca89f;
@@ -206,12 +202,12 @@ h3{
 .exp_title{
     float: left;
     font-weight: bold;
-    font-size: larger;
+    font-size: 2vmin;
 }
 .exp_period{
     float: right;
     font-weight: bold;
-    font-size: larger;
+    font-size: 2vmin;
     padding-right: 9%;
 }
 .mygit{
