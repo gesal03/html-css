@@ -14,8 +14,7 @@ body,h1,h2{
 }
 
 body{ 
-    width: 100%;
-    height: 770px;
+    height: 700px;
 }
 /* 큰 틀 */
 .box{
@@ -44,12 +43,15 @@ body{
     color: bisque;
 }
 .list{
-    padding-top: 30%;
-    font-size: 250%;
+    width: 100%;
+    height: 100%;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    font-size: 200%;
     font-weight: bold;
     line-height: 150%;
     text-align: center;
-    
+    box-sizing: border-box;    
 }
 .list:hover{
     color: bisque; 
@@ -79,8 +81,9 @@ body{
     box-sizing: border-box;
 }
 h1{
-    width: 90%;
-    font-size: 700%;
+    height: 70%;
+    width: 65%;
+    font-size: 70px;
     font-style: italic;
     color: #8b6c5c;
     border-bottom: 1px solid #bca89f;
